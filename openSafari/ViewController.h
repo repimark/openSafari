@@ -9,7 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
+-(IBAction)goToSafari:(id)sender;
+- (IBAction)textMessage:(id)sender;
+- (IBAction)telCall:(id)sender;
+- (IBAction)eMail:(id)sender;
 
 @end
 
